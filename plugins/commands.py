@@ -313,14 +313,16 @@ async def start(client, message):
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                     [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-
-                     ]
-                    ]
-                )
-            )
+            [
+             [
+              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')
+             ],
+             [
+              InlineKeyboardButton('🔆彡 [ AVAFLiX ] 彡🔆', url=f'https://t.me/AvaFlixOfficial') #Don't change anything without contacting me @LazyDeveloperr
+             ]
+            ]
+        )
+    )
             filesarr.append(msg)
         k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
         await asyncio.sleep(600)
@@ -376,10 +378,13 @@ async def start(client, message):
                     [
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-                     ]
-                    ]
-                )
-            )
+                     ],
+             [
+              InlineKeyboardButton('🔆彡 [ AVAFLiX ] 彡🔆', url=f'https://t.me/AvaFlixOfficial') #Don't change anything without contacting me @LazyDeveloperr
+             ]
+            ]
+        )
+    )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '@new_tamil_movies_hd_1  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
@@ -433,6 +438,9 @@ async def start(client, message):
              [
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+             ],
+             [
+              InlineKeyboardButton('🔆彡 [ AVAFLiX ] 彡🔆', url=f'https://t.me/AvaFlixOfficial') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
