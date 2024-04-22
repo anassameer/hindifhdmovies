@@ -169,9 +169,9 @@ Nᴀᴍᴇ - {}"""
 
     MVE_NT_FND = """💢 Sorry – It’s Not Available❗️
 
-⚠️ The Reason❓[<a href='https://t.me/Avaflixx/8'>Click Here</a>]
-🗨 Please Follow Request Tips!
-🔆 Request Tips ➔ [<a href='https://t.me/Avaflixx/7'>Click Here</a>]"""
+⚠️ 𝗧𝗵𝗲 𝗥𝗲𝗮𝘀𝗼𝗻❓[<a href='https://t.me/Avaflixx/8'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>]
+🗨 𝗣𝗹𝗲𝗮𝘀𝗲 𝗙𝗼𝗹𝗹𝗼𝘄 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗶𝗽𝘀!
+🔆 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗶𝗽𝘀 ➔ [<a href='https://t.me/Avaflixx/7'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>]"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
