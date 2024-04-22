@@ -246,9 +246,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b><a href="https://telegram.me/HP_MOVIES_WORLD">{file_name}</a>
+    
+    ━━━━━━━━━━━━━━━━━━━━━
+🔆 彡 [ @AVAFLiXOFFICIAL ] 彡 🔆</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
