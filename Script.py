@@ -246,10 +246,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://telegram.me/Avaflixofficial">🎗{file_name}</a>
+    CAPTION = """<b><a href="https://t.me/Hindi_FHD_Movies">🎗{file_name}</a>
     
     ━━━━━━━━━━━━━━━━━━━━━
-🔆 彡 [ @AVAFLiXOFFICIAL ] 彡 🔆</b>"""
+🔆 彡 [ @Hindi_FHD_Movies ] 彡 🔆</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
