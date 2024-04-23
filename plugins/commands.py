@@ -380,7 +380,7 @@ async def start(client, message):
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ],
              [
-              InlineKeyboardButton('🔆彡 [ Hindi FHD MOVIES ] 彡🔆', url=f'https://t.me/Hindi_FHD_MOVIES') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🔆彡 [ Hindi_FHD_MOVIES ] 彡🔆', url=f'https://t.me/Hindi_FHD_MOVIES') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -440,7 +440,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ],
              [
-              InlineKeyboardButton('🔆彡 [ AVAFLiX ] 彡🔆', url=f'https://t.me/AvaFlixOfficial') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🔆彡 [ Hindi_FHD_MOVIES ] 彡🔆', url=f'https://t.me/Hindi_FHD_MOVIES') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -448,7 +448,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=False)
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
