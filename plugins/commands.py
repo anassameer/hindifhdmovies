@@ -69,7 +69,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton(
-                    "🔆彡⟨ Hindi FHD Movies⟩彡🔆", url="https://t.me/Hindi_FHD_MOVIES"
+                    "🔆彡⟨ Hindi_FHD_Movies⟩彡🔆", url="https://t.me/Hindi_FHD_MOVIES"
                 )
             ]
         ]
@@ -318,7 +318,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')
              ],
              [
-              InlineKeyboardButton('🔆彡 [ Hindi FHD MOVIES] 彡🔆', url=f'https://t.me/HINDI_FHD_MOVIES') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🔆彡 [ Hindi_FHD_MOVIES] 彡🔆', url=f'https://t.me/HINDI_FHD_MOVIES') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
